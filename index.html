@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Nigeria States/LGA Documentation </title>
+<meta property="og:image:type" content="image/png">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://jaywebtech.com.ng">
+<meta property="og:title" content="Nigeria States/LGA API Documentation">
+<meta property="og:description" content="This is a mini project that compiles all the States and Local Government in an API. This API was implement in NodeJS and it's support fast when it comes to fetching data.">
+<meta property="og:image" content="https://jaywebtech.com.ng/img/logo.jpg">
+
+<link rel="canonical" href="https://jaywebtech.com.ng/">
+<meta property="og:locale" content="en_NG">
+<meta property="og:site_name" content="Nigeria States/LGA API Documentation">
+<meta property="og:image:secure_url" content="https://jaywebtech.com.ng/img/logo.jpg">
+
+<meta property="profile:first_name" content="Adamu Jethro">
+<meta property="profile:last_name" content="Adamu Jethro">
+<meta property="profile:gender" content="male">
+<meta property="profile:username" content="Adamu Jethro">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="This is a mini project that compiles all the States and Local Government in an API. This API was implement in NodeJS and it's support fast when it comes to fetching data.">
+<meta name="twitter:title" content="Nigeria States/LGA API Documentation">
+<meta name="twitter:image" content="https://jaywebtech.com.ng/img/logo.jpg">
+
+<meta name="keywords" content="Nigeria States/LGA API Documentation, NGA LGAs, Nigeria States and Local Government html css, nga-states-lga javascript, Jethro Adamu" />
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+<style type="text/css">
+  @media only screen and (max-width: 600px) {
+    #carbon{
+      
+      overflow: scroll !important;
+    }
+  }
+</style>
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template" style="font-size: 18px !important;font-weight: 600;text-decoration: none;color: #000;">NGA-LGAs </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li><a target="_blank" href="https://paystack.com/pay/wq21-ty5ex">Buy me a coffee 🍵</a></li>
+          </ul>
+        </div>
+        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+          <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/jaykosai/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://web.facebook.com/profile.php?id=100007418627766" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="social-icons-github"><a data-toggle="tooltip" href="https://github.com/JayWebtech" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-light">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">HTML/Javascript</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_sass">React JS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">Flutter</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a onclick="window.open('https://github.com/JayWebtech','_blank')" class="nav-link" href="https://github.com/JayWebtech" target="_blank">Follow me on Github</a>		</li>
+        <li class="nav-item"><a onclick="window.open('https://paystack.com/pay/wq21-ty5ex','_blank')" class="nav-link" href="https://github.com/JayWebtech" target="_blank">Buy me a coffee</a>   </li>
+  </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+        <h2>Nigeria States and Local Goverments API</h2>
+        <p class="lead">This is a mini project that compiles all the States and Local Government in an API. This API was implement in NodeJS and it's support fast when it comes to fetching data.</p>
+       
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong>Version:</strong> 1.0</li>
+					<li><strong>Author:</strong> Adamu Jethro</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong class="font-weight-700">Created:</strong> 18<sup>th</sup> January, 2023 </li>
+					<li><strong>Last Update:</strong> 18<sup>th</sup> January, 2023 </li>
+				</ul>
+			</div>
+		</div>
+        <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to email via <strong>jethroadamzy@gmail.com</strong> or <strong>+2348084348312</strong> on WhatsApp</p>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Installation
+		============================ -->
+        <section id="idocs_installation">
+          <h2>Installation</h2>
+          <p class="lead">Follow the steps below to consume the API in different languages:</p>
+           <p><strong>Get all States:</strong> <code>https://nga-states-lga.onrender.com/fetch</code></p>
+        <p><strong>Get Local Government:</strong> <code>https://nga-states-lga.onrender.com/?state=Kaduna</code></p>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="idocs_html_structure">
+          <h2>HTML/Javascript</h2>
+          <p>Using HTML/Javascript is super easy 🚀<br>
+            </p>
+            <h5>HTML Code</h5>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21DOCTYPE%2520html%253E%250A%253Chtml%253E%250A%253Chead%253E%250A%2509%253Cmeta%2520charset%253D%2522utf-8%2522%253E%250A%2509%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1%2522%253E%250A%2509%253Ctitle%253ENGA%2520LGAs%253C%252Ftitle%253E%250A%253C%252Fhead%253E%250A%2509%253Cbody%253E%250A%2520%2520%2520%2520%253Cselect%2520onchange%253D%2522selectLGA%28this%29%2522%2520id%253D%2522state%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522%2522%2520selected%253D%2522selected%2522%253E-%2520Select%2520State%2520-%253C%252Foption%253E%250A%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%2520%2520%253Cselect%2520class%253D%2522form-control%2522%2520id%253D%2522lga%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Coption%253ESelect%2520LGA%253C%252Foption%253E%250A%2520%2520%2520%2520%253C%252Fselect%253E%250A%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E%250A"
+  style="width: 800px; height: 390px; border:0; transform: scale(1);"
+  sandbox="allow-scripts allow-same-origin" id="carbon">
+</iframe>
+       
+<h5>Javascript Code</h5>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FFetch%2520all%2520States%250Afetch%28%27https%253A%252F%252Fnga-states-lga.onrender.com%252Ffetch%27%29%250A%2509%2509.then%28%28res%29%2520%253D%253E%2520res.json%28%29%29%250A%2509%2509.then%28%28data%29%2520%253D%253E%2520%257B%250A%2509%2509%2520var%2520x%2520%253D%2520document.getElementById%28%2522state%2522%29%253B%250A%2509%2509%2509for%2520%28let%2520index%2520%253D%25200%253B%2520index%2520%253C%2520Object.keys%28data%29.length%253B%2520index%252B%252B%29%2520%257B%250A%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520var%2520option%2520%253D%2520document.createElement%28%2522option%2522%29%253B%250A%2509%2509%2509%2509option.text%2520%253D%2520data%255Bindex%255D%253B%250A%2509%2509%2509%2509option.value%2520%253D%2520data%255Bindex%255D%253B%250A%2509%2509%2509%2509x.add%28option%29%253B%250A%2509%2509%2520%2520%2520%2520%2520%2520%2520%257D%2520%250A%2509%2520%2520%2520%2509%2509%257D%29%253B%250A%252F%252FFetch%2520Local%2520Goverments%2520based%2520on%2520selected%2520state%250Afunction%2520selectLGA%28target%29%2520%257B%250A%2509var%2520state%2520%253D%2520target.value%253B%250A%2509%2509fetch%28%27https%253A%252F%252Fnga-states-lga.onrender.com%252F%253Fstate%253D%27%252Bstate%29%250A%2509%2509%2520%2520%2520.then%28%28res%29%2520%253D%253E%2520res.json%28%29%29%250A%2509%2509%2520%2520%2520.then%28%28data%29%2520%253D%253E%2520%257B%250A%2509%2509%2520%2520%2520%2520var%2520x%2520%253D%2520document.getElementById%28%2522lga%2522%29%253B%250A%2509%2509%2509%2509%250A%2509%2509%2520%2520%2520%2520var%2520select%2520%253D%2520document.getElementById%28%2522lga%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520var%2520length%2520%253D%2520select.options.length%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520for%2520%28i%2520%253D%2520length-1%253B%2520i%2520%253E%253D%25200%253B%2520i--%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520select.options%255Bi%255D%2520%253D%2520null%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2509%2509%2520%2520%2520%2520for%2520%28let%2520index%2520%253D%25200%253B%2520index%2520%253C%2520Object.keys%28data%29.length%253B%2520index%252B%252B%29%2520%257B%250A%2509%2509%2520%2520%2520%2520%2509%2509var%2520option%2520%253D%2520document.createElement%28%2522option%2522%29%253B%250A%2509%2509%2509%2509%2509option.text%2520%253D%2520data%255Bindex%255D%253B%250A%2509%2509%2509%2509%2509option.value%2520%253D%2520data%255Bindex%255D%253B%250A%2509%2509%2509%2509%2509x.add%28option%29%253B%250A%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%257D%2520%250A%2509%2520%2520%2520%2509%2509%257D%29%253B%250A%2509%257D%250A%2520%2520%2520%2520"
+  style="width: 800px; height: 690px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+        
+		<hr class="divider">
+		        
+		<!-- Sass
+		============================ -->
+        <section id="idocs_sass">
+          <h2>React JS</h2>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520getStatesFromApi%2520%253D%2520async%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520let%2520response%2520%253D%2520await%2520fetch%28%250A%2520%2520%2520%2520%2520%2520%27https%253A%252F%252Fnga-states-lga.onrender.com%252Ffetch%27%250A%2520%2520%2520%2520%29%253B%250A%2520%2520%2520%2520let%2520json%2520%253D%2520await%2520response.json%28%29%253B%250A%2520%2520%2520%2520return%2520json.states%253B%250A%2520%2520%257D%250A%257D%253B"
+  style="width: 800px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h5>Fetch Local Government</h5>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520getStatesFromApi%2520%253D%2520async%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520let%2520response%2520%253D%2520await%2520fetch%28%250A%2520%2520%2520%2520%2520%2520%27https%253A%252F%252Fnga-states-lga.onrender.com%252F%253Fstate%253DKaduna%27%250A%2520%2520%2520%2520%29%253B%250A%2520%2520%2520%2520let%2520json%2520%253D%2520await%2520response.json%28%29%253B%250A%2520%2520%2520%2520return%2520json.lga%253B%250A%2520%2520%257D%250A%257D%253B"
+  style="width: 800px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Color Schemes
+		============================ -->
+        <section id="idocs_color_schemes">
+          <h2>Flutter</h2>
+          <h5>Fetch Sates</h5>
+         <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=Future%253Cvoid%253E%2520_fetchStates%28%29%2520async%2520%257B%250A%2520%2520%2520%2520const%2520apiUrl%2520%253D%2520%27https%253A%252F%252Fnga-states-lga.onrender.com%252Ffetch%27%253B%250A%250A%2520%2520%2520%2520HttpClient%2520client%2520%253D%2520HttpClient%28%29%253B%250A%2520%2520%2520%2520client.autoUncompress%2520%253D%2520true%253B%250A%250A%2520%2520%2520%2520final%2520HttpClientRequest%2520request%2520%253D%2520await%2520client.getUrl%28Uri.parse%28apiUrl%29%29%253B%250A%2520%2520%2520%2520request.headers%250A%2520%2520%2520%2520%2520%2520%2520%2520.set%28HttpHeaders.contentTypeHeader%252C%2520%2522application%252Fjson%253B%2520charset%253DUTF-8%2522%29%253B%250A%2520%2520%2520%2520final%2520HttpClientResponse%2520response%2520%253D%2520await%2520request.close%28%29%253B%250A%250A%2520%2520%2520%2520final%2520String%2520content%2520%253D%2520await%2520response.transform%28utf8.decoder%29.join%28%29%253B%250A%2520%2520%2520%2520final%2520List%2520data%2520%253D%2520json.decode%28content%29%253B%250A%250A%2520%2520%2520%2520setState%28%28%29%2520%257B%250A%2520%2520%2520%2520%2520%2520_loadedStates%2520%253D%2520data%253B%250A%2520%2520%2520%2520%257D%29%253B%250A%257D"
+  style="width: 800px; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<h5>Fetch Local Goverment</h5>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=68px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=JetBrains+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=Future%253Cvoid%253E%2520_fetchLGA%28%29%2520async%2520%257B%250A%2520%2520%2520%2520const%2520apiUrl%2520%253D%2520%27https%253A%252F%252Fnga-states-lga.onrender.com%252F%253Fstate%253DKaduna%27%253B%250A%250A%2520%2520%2520%2520HttpClient%2520client%2520%253D%2520HttpClient%28%29%253B%250A%2520%2520%2520%2520client.autoUncompress%2520%253D%2520true%253B%250A%250A%2520%2520%2520%2520final%2520HttpClientRequest%2520request%2520%253D%2520await%2520client.getUrl%28Uri.parse%28apiUrl%29%29%253B%250A%2520%2520%2520%2520request.headers%250A%2520%2520%2520%2520%2520%2520%2520%2520.set%28HttpHeaders.contentTypeHeader%252C%2520%2522application%252Fjson%253B%2520charset%253DUTF-8%2522%29%253B%250A%2520%2520%2520%2520final%2520HttpClientResponse%2520response%2520%253D%2520await%2520request.close%28%29%253B%250A%250A%2520%2520%2520%2520final%2520String%2520content%2520%253D%2520await%2520response.transform%28utf8.decoder%29.join%28%29%253B%250A%2520%2520%2520%2520final%2520List%2520data%2520%253D%2520json.decode%28content%29%253B%250A%250A%2520%2520%2520%2520setState%28%28%29%2520%257B%250A%2520%2520%2520%2520%2520%2520_loadedLGA%2520%253D%2520data%253B%250A%2520%2520%2520%2520%257D%29%253B%250A%257D"
+  style="width: 800px; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+		
+		<hr class="divider">
+		
+	
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
